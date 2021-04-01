@@ -4,8 +4,8 @@
        "slim/slim": "^3.9",
        "slim/php-view": "^2.2"
     }
+},
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
+  }
 }
- "post-install-cmd": [
-     "php artisan clear-compiled",
-     "chmod -R 777 public/"
- ]
